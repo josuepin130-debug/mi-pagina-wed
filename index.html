@@ -1,12 +1,425 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio - Vendedor de Páginas Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    hola mundo
-    
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Web<span>Portafolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+             </div>
+           
+    </nav>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hola, soy <span class="highlight">Tu Nombre</span></h1>
+                <h2>Vendedor Profesional de Páginas Web</h2>
+                <p>Transformo ideas en presencia digital. Creo páginas web modernas, funcionales y optimizadas que impulsan tu negocio al éxito.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver Mis Proyectos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contáctame</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Mis Servicios</h2>
+            <p class="section-subtitle">Ofrezco soluciones web integrales para hacer crecer tu negocio</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Tiendas Online</h3>
+                    <p>Tiendas virtuales completas con pasarela de pagos, inventario y gestión de pedidos.</p>
+                    <ul class="service-features">
+                        <li>Carrito de compras</li>
+                        <li>Pasarela de pagos</li>
+                        <li>Panel de administración</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Páginas Web Corporativas</h3>
+                    <p>Sitios web profesionales que reflejan la identidad de tu empresa.</p>
+                    <ul class="service-features">
+                        <li>Diseño responsive</li>
+                        <li>SEO optimizado</li>
+                        <li>Formularios de contacto</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Landing Pages</h3>
+                    <p>Páginas de aterrizaje diseñadas para convertir visitantes en clientes.</p>
+                    <ul class="service-features">
+                        <li>Alta conversión</li>
+                        <li>Diseño atractivo</li>
+                        <li>Integración con CRM</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress & CMS</h3>
+                    <p>Sistemas de gestión de contenido fáciles de usar y personalizar.</p>
+                    <ul class="service-features">
+                        <li>Fácil administración</li>
+                        <li>Plugins instalados</li>
+                        <li>Capacitación incluida</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Diseño Responsive</h3>
+                    <p>Sitios web que se adaptan perfectamente a todos los dispositivos.</p>
+                    <ul class="service-features">
+                        <li>Mobile-first</li>
+                        <li>Tablet optimizado</li>
+                        <li>Experiencia fluida</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Mantenimiento Web</h3>
+                    <p>Servicio continuo para mantener tu sitio seguro y actualizado.</p>
+                    <ul class="service-features">
+                        <li>Actualizaciones regulares</li>
+                        <li>Respaldo automático</li>
+                        <li>Soporte técnico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <p class="section-subtitle">Descubre algunos de mis trabajos recientes</p>
+
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tienda Online de Moda</h3>
+                        <p>E-commerce completo con más de 500 productos y sistema de pagos.</p>
+                        <div class="project-tags">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Corporativo Inmobiliario</h3>
+                        <p>Sitio web institucional para empresa de bienes raíces.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>SASS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Restaurante & Bar</h3>
+                        <p>Sitio web con menú digital, reservas y sistema de pedidos.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Clínica Dental</h3>
+                        <p>Landing page con sistema de citas online y chat en vivo.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plataforma Educativa</h3>
+                        <p>Sistema de gestión de cursos con videos y evaluaciones.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Agencia Automotriz</h3>
+                        <p>Catálogo de vehículos con cotización online y financimiento.</p>
+                        <div class="project-tags">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="#" class="project-link">Ver Proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonios</h2>
+            <p class="section-subtitle">Lo que dicen mis clientes satisfechos</p>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Excelente trabajo! Nuestra tienda online ha aumentado las ventas en un 200% desde que pusimos en marcha la nueva web. Totalmente recomendado."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>María García</h4>
+                            <p>Directora, TiendaModa</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Profesionalismo y creatividad sin límites. Nuestro sitio corporativo refleja exactamente lo que somos. ¡Gracias por el gran trabajo!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>Carlos Rodríguez</h4>
+                            <p>CEO, Constructora CR</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"La landing page que desarrolló superó todas nuestras expectativas. La tasa de conversión aumentó significativamente en la primera semana."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-details">
+                            <h4>Ana Martínez</h4>
+                            <p>Marketing Manager, TechStart</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <p class="section-subtitle">¿Listo para comenzar tu proyecto? Escríbeme!</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <p>tu@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="details">
+                            <h4>Teléfono</h4>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="details">
+                            <h4>Ubicación</h4>
+                            <p>Ciudad, País</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="tienda">Tienda Online</option>
+                            <option value="corporativa">Página Corporativa</option>
+                            <option value="landing">Landing Page</option>
+                            <option value="wordpress">WordPress/CMS</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Enviar Mensaje</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Web<span>Portafolio</span></h3>
+                    <p>Creando experiencias web excepcionales</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Flotante -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
 </body>
 </html>
